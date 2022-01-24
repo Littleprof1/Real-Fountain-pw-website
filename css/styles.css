@@ -116,7 +116,7 @@ li {
 
 #features {
     background-color: #CDDEFF;
-    padding: 5%;
+    padding: 2%;
     position: relative;
     text-align: center;
 }
@@ -150,7 +150,7 @@ li {
 
   #testimonial {
       text-align: center;
-      padding: 5%;
+      padding: 2%;
   }
 
   #testimonial-carousel {
@@ -273,11 +273,17 @@ li {
     .carton-image {
         width: 40%;
     }
+    #features {
+        padding: 5%;
+    }
     .featureText {
         font-size: 2rem;
     }
     .featureImage {
         width: 50%;
+    }
+    #testimonial {
+        padding: 5%;
     }
     .testi-big-head {
         font-size: 2rem;
