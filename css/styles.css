@@ -1,0 +1,300 @@
+* {
+    overflow-x: hidden;
+}
+
+
+li {
+    list-style: none;
+}
+    /* Menu navigatio bar */
+  .navigation {
+    background-color: #548CFF;
+    padding: 10px 190px;
+    transition: 0.3s ease;
+  }
+  .navigation.nav-bg {
+    background-color: #548CFF;
+    padding: 15px 100px;
+  }
+  @media (max-width: 991px) {
+    .navigation.nav-bg {
+      padding: 15px 20px;
+    }
+  }
+  @media (max-width: 991px) {
+    .navigation {
+      padding: 20px;
+      background: #548CFF;
+    }
+  }
+  
+  .navbar .nav-item .nav-link {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    padding: 5px;
+  }
+  .navbar .nav-item.active {
+    font-weight: bold;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+  }
+  .navbar-dark .navbar-nav .nav-link:hover{
+      font-size: large;
+  }
+    /*End Menu navigatio bar */
+
+
+    /* front page */
+.imgs {
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    background: linear-gradient(to right, rgba(255,0,0,0), rgb(48, 47, 47)), 
+     url(../images/cold-bottle-water.jpg);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+
+.imgs .textBox {
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.imgs .textBox h1{
+    font-family: 'Lilita One', cursive;
+    font-size: 6.5rem;
+    font-weight: 400;
+    overflow-y: hidden;
+}
+.imgs .textBox h4{
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.imgs .textBox p{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* About page */
+#aboutDiv {
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    padding: 2%;
+}
+
+.aboutText {
+    padding-top: 8%;
+    font-family: 'Lilita One', cursive;
+    color: darkblue;
+    text-align: center;
+    overflow-y: hidden;
+    font-size: 4rem;
+}
+
+
+
+.aboutParaText {
+    margin-top: 40%;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+/* What we do */
+
+#features {
+    background-color: #CDDEFF;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+}
+
+
+.featureText {
+    font-family: 'Lilita One', cursive;
+    color: darkblue;
+    text-align: center;
+    overflow-y: hidden;
+    font-size: 4rem;
+}
+
+.featureImage {
+    width: 60%;
+    padding-top: 20px;
+}
+
+.feauturesLi {
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* .container-fluid {
+    padding: 7% 15%;
+  } */
+
+
+/* Testimonial Section */
+
+  #testimonial {
+      text-align: center;
+      padding: 2%;
+  }
+
+  #testimonial-carousel {
+      padding: 5% 10%;
+  }
+  
+  .testimonial-image {
+      width: 20%;
+      border-radius: 50%;
+  }
+
+
+  .testi-big-head{
+      font-family: 'Lilita One', cursive;
+      font-size: 4rem;
+      line-height: 1.5;
+      color: darkblue;
+  }
+
+  .carousel-heading {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .carousel-control-prev-icon {
+      background-color: blue;
+  }
+  .carousel-control-next-icon {
+      background-color: blue;
+  }
+
+
+
+  /* Footer section */
+
+  #footer {
+      background-color: #548CFF;
+      position: relative;
+      text-align: left;
+      color: #2F3A8F;
+  }
+
+  .footer-text {
+      padding: 5% 10%;
+  }
+
+  .footer-headings {
+      font-size: 2rem;
+      font-family: 'Lilita One', cursive;
+      line-height: 1.5;
+  }
+
+  .footer-parag {
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  
+  /* contact page */
+  .reach {
+      padding: 3% 15%;
+  }
+
+  .contact-address {
+      line-height: 1.5;
+  }
+
+  .con {
+    padding-top: 8%;
+    font-family: 'Lilita One', cursive;
+    color: darkblue;
+    text-align: center;
+    overflow-y: hidden;
+    font-size: 4rem;
+  }
+
+
+  /* Order section */
+  #order-sec {
+    color: #fff;
+  }
+  .order-heading {
+    padding-top: 8%;
+    font-family: 'Lilita One', cursive;
+    color: darkblue;
+    text-align: center;
+    overflow-y: hidden;
+    font-size: 4rem;
+  }
+
+  .orderBoxContainer {
+      padding: 3% 15%;
+  }
+
+
+@media (max-width: 1028px) {
+    .navigation {
+        padding: 5px 20px;
+      }
+    .imgs .textBox h1{
+        font-family: 'Lilita One', cursive;
+        font-size: 3.5rem;
+        font-weight: 250;
+        overflow-y: hidden;
+    }
+    .imgs .textBox h4{
+        font-size: 20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .aboutText{
+        font-size: 2rem;
+        padding-top: 30%;
+    }
+    #aboutDiv {
+        padding: 5%;
+    }
+    .aboutParaText {
+        margin-top: 7%;
+    }
+    .carton-image {
+        width: 40%;
+    }
+    .featureText {
+        font-size: 2rem;
+    }
+    .featureImage {
+        width: 50%;
+    }
+    .testi-big-head {
+        font-size: 2rem;
+    }
+    .carousel-heading {
+        font-size: 1rem;
+    }
+    .footer-headings {
+        font-size: 1.5rem;
+    }
+    .con {
+        font-size: 2rem;
+        padding-top: 30%;
+    }
+    .order-heading {
+        font-size: 2rem;
+        padding-top: 30%;
+    }
+}
+
